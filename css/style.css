@@ -1,0 +1,277 @@
+@font-face {
+	font-family: "KleeOne";
+	src: url("../fonts/KleeOne-SemiBold.woff2") format("woff2"), url("../fonts/KleeOne-SemiBold.woff") format("woff");
+	font-style: italic;
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: "TTCommons";
+	src: url("../fonts/TTCommons-DemiBold.woff2") format("woff2"), url("../fonts/TTCommons-DemiBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+@font-face {
+	font-family: "TTCommons";
+	src: url("../fonts/TTCommons-Medium.woff2") format("woff2"), url("../fonts/TTCommons-Medium.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Ayuthaya";
+	src: url("../fonts/Ayuthaya.woff2") format("woff2"), url("../fonts/Ayuthaya.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Lato-Black";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-style: normal;
+	font-weight: 900;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	/*overflow: hidden;*/
+}
+
+h1,
+h2,
+h3 {
+	font-family: "TTCommons", sans-serif;
+	font-weight: 600;
+}
+p {
+	font-family: "TTCommons", sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: rgba(0, 0, 0, 0.748);
+}
+ul li {
+	font-family: "Ayuthaya", sans-serif;
+}
+.link-page {
+	font-family: "Ayuthaya", sans-serif;
+	font-size: 30px;
+	color: blue;
+	display: inline-block;
+	margin: 30px 30px 90px;
+	text-decoration: underline;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 2px rgba(81, 0, 255, 0.564);
+}
+.zagol {
+	font-size: 50px;
+	color: rgb(245, 103, 8);
+	text-shadow: 5px 0px 6px rgb(10, 1, 1);
+	letter-spacing: 1px;
+	text-align: center;
+}
+.zast {
+	width: 588px;
+	margin: 0px auto 30px;
+	padding: 3px;
+}
+.menu h2 {
+	font-size: 45px;
+	color: rgb(245, 75, 8);
+	text-shadow: 5px 0px 6px rgb(10, 1, 1);
+	letter-spacing: 1px;
+	margin: 0px 0px 10px 20px;
+}
+.menu ul li {
+	font-size: 20px;
+	color: blue;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 1px;
+	margin: 0 0 20px 20px;
+	text-shadow: 1px 1px 1px #000;
+}
+.komp-zagg {
+	font-size: 45px;
+	color: rgb(245, 75, 8);
+	text-shadow: 5px 0px 6px rgb(10, 1, 1);
+	letter-spacing: 1px;
+	max-width: 539px;
+	margin: 0px auto 30px;
+	text-align: center;
+}
+.komp-text {
+	width: 70%;
+	margin: 0px auto 30px;
+}
+#mors-zag {
+	font-size: 45px;
+	color: rgb(245, 75, 8);
+	text-shadow: 5px 0px 6px rgb(10, 1, 1);
+	letter-spacing: 1px;
+	text-align: center;
+}
+.mors-img {
+	max-width: 539px;
+	margin: 0px auto 20px;
+}
+.mors-text {
+	width: 100%;
+	min-height: 150px;
+	margin: 0 0 30px 20px;
+}
+#kakao-zag,
+#tea-zag {
+	font-size: 45px;
+	color: rgb(245, 75, 8);
+	text-shadow: 5px 0px 6px rgb(10, 1, 1);
+	letter-spacing: 1px;
+	text-align: center;
+}
+.kakao-img {
+	min-width: 539px;
+	margin: 0px 0px 30px 20px;
+}
+.kakao-text-div {
+	width: 300px;
+	height: 300px;
+	display: inline-block;
+	margin: 0px 0px 50px 0px;
+	overflow: auto;
+}
+.kakao-text-div span {
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.707);
+}
+.tea-div {
+	max-width: 610px;
+	margin: 0px auto 50px;
+	max-height: 550px;
+	overflow: hidden;
+	padding: 10px;
+}
+.tea-div img {
+	padding: 10px;
+}
+h3 {
+	color: rgba(14, 11, 11, 0.884);
+	font-size: 28px;
+	width: 80%;
+	margin: 0px auto 20px;
+}
+.list li {
+	font-size: 20px;
+	margin: 0 0 15px 30px;
+}
+nav,
+.komp,
+.mors,
+.kakao,
+.list {
+	margin-bottom: 60px;
+}
+.footer {
+	font-family: KleeOne, sans-serif;
+}
+/* --Лист2---- */
+.main {
+	width: 1578px;
+}
+.zag {
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	font-family: "Lato-Black", sans-serif;
+	color: #424551;
+	text-align: left;
+	margin: 152px 765px 40px 345px;
+	width: 810px;
+	height: 210px;
+	padding: 48px 52px 58px 0px;
+}
+.picture {
+	width: 810px;
+	height: 360px;
+	margin: 0 0 40px 345px;
+}
+.paragr-1 {
+	font-family: "Lato-Bold", sans-serif;
+	font-weight: 700;
+	color: #1e212c;
+	font-size: 20px;
+	line-height: 1.5;
+	width: 810px;
+	height: 90px;
+	margin: 0 0 24px 345px;
+}
+.paragr-2-1,
+.paragr-2-2 {
+	font-family: "Lato-Regular", sans-serif;
+	font-size: 16px;
+}
+.paragr-2 {
+	width: 810px;
+	height: 182px;
+	margin: 0 0 48px 345px;
+	line-height: 1.6;
+}
+.paragr-2-1 {
+	margin-bottom: 33px;
+}
+.paragr-3 {
+	font-family: "Lato-Bold", sans-serif;
+	width: 810px;
+	height: 120px;
+	font-weight: 700;
+	color: #1e212c;
+	font-size: 20px;
+	line-height: 1.5;
+	padding-left: 58px;
+	margin: 0 0 48px 345px;
+}
+.paragr-4 {
+	font-family: "Lato-Regular", sans-serif;
+	width: 810px;
+	height: 52px;
+	font-size: 16px;
+	color: #424551;
+	margin: 0 0 24px 345px;
+	line-height: 1.6;
+	font-weight: normal;
+}
+.list1 li {
+	font-family: "Lato-Regular", sans-serif;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.list-ul {
+	width: 600px;
+	height: 116px;
+	margin: 0 0 24px 345px;
+	padding-left: 32px;
+	color: #424551;
+}
+.paragr-5 {
+	line-height: 1.6;
+	font-family: "Lato-Regular", sans-serif;
+	width: 810px;
+	height: 104px;
+	margin: 0 0 94px 345px;
+	font-size: 16px;
+	color: #424551;
+}
